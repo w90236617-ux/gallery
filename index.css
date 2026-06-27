@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.parent-div{
+    height: 90vh;
+    width: 100vw;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+.arrow{
+    height: 40px;
+    
+    
+}
+.pc{
+    height: 70%;
+    width: 35%;
+ 
+}
+#left-arr{
+    display: none;
+}
+.arrow:hover{
+    height: 50px;
+}
